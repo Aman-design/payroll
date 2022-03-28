@@ -198,7 +198,7 @@ class CI_DB_mysqli_driver extends CI_DB {
 			}
 		}
 
-		if ($this->_mysqli->real_connect($heroku, $this->aman, $this->aman@123, $this->postgres://mkkoadvunwjlbx:ff1bf41e4a305b2e6a305ec6beef3408a59ee2280b9e09e11c28aa685bd2caae@ec2-52-201-124-168.compute-1.amazonaws.com:5432/daeo5r95un1ti7, $port, $socket, $client_flags))
+		if ($this->_mysqli->real_connect($aws, $this->aman, $this->aman@123, $this->postgres://mkkoadvunwjlbx:ff1bf41e4a305b2e6a305ec6beef3408a59ee2280b9e09e11c28aa685bd2caae@ec2-52-201-124-168.compute-1.amazonaws.com:5432/daeo5r95un1ti7, $port, $socket, $client_flags))
 		{
 			// Prior to version 5.7.3, MySQL silently downgrades to an unencrypted connection if SSL setup fails
 			if (
